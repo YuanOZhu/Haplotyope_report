@@ -13,28 +13,28 @@ The output file will read like this
 - 95,118,159        143135          G,T,A             7162      0.05003667866
 - 95,118,159,189     93117          A,C,A,T          22917      0.246109732917
 - 95,118,159,189     93117          A,C,G,T          29841      0.320467798576
-- 95,118,159,189     93117          A,T,A,T          32109      0.344824253359\
+- 95,118,159,189     93117          A,T,A,T          32109      0.344824253359
 
-Haplo_pos: positions of SNPs in haplotype \
+Haplo_pos: positions of SNPs in haplotype\
 Haplo_coverage: number of reads that covered this exact haplotype\
 Haplo_genotype: genotype being reported\
 Geno_count: how many reads covering the haplotype reported this genotype\
 Geno_freq: Geno_count/Haplo_coverage\
-\
+
 # Usage:
 LDx_haplo.py [-h] -i BAM -v VCF [-o OUT] [-d DEPTH] [-f MAF]\
 #arguments -i/--bam -v/--vcf are required\
-\
+
 # Intended Application:
-Viral quasispecies investigation - short range haplotype information is extremely useful for epitope quasispecies analysis. \
-\
+Viral quasispecies investigation - short range haplotype information is extremely useful for epitope quasispecies analysis.\
+
 # Possible applications:
 If you want to clarify whether any SNPs close enough to fall on the same read present multiple haplotypes in sequenced population.\
-\
+
 # Note of Caution:
 This script has not been optimized for speed. HBV genome is small (3Kb).\
-SNP files will need to be filtered and reformatted prior to usage. This script does not include VCF filtering.   \
-\
+SNP files will need to be filtered and reformatted prior to usage. This script does not include VCF filtering.\
+
 # Future Improvements:
-Allow user specification of region of interest. Currently, this can be done by pre-filtering SNPs of interest and reads that only map to the region of interest. \
+Allow user specification of region of interest. Currently, this can be done by pre-filtering SNPs of interest and reads that only map to the region of interest.\
 At the moment this script is not equipped to handle data from more than 1 chromosome.\
