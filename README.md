@@ -32,9 +32,9 @@ Viral quasispecies investigation - short range haplotype information is extremel
 If you want to clarify whether any SNPs close enough to fall on the same read present multiple haplotypes in sequenced population.
 
 # Note of Caution:
-This script has not been optimized for speed. HBV genome is small (3Kb).
+This script has not been optimized for speed. HBV genome is small (3Kb).\
 SNP files will need to be filtered and reformatted prior to usage. This script does not include VCF filtering.
 
 # Future Improvements:
-Allow user specification of region of interest. Currently, this can be done by pre-filtering SNPs of interest and reads that only map to the region of interest.
+Allow user specification of region of interest. Currently, this can be done by pre-filtering SNPs of interest and reads that only map to the region of interest.\
 At the moment this script is not equipped to handle data from more than 1 chromosome.
