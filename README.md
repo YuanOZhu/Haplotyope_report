@@ -2,8 +2,8 @@
 
 This script reports haplotypes spanning 2 or more known SNPs per read. Simple counts are reported. Influenced by LDx script by Alison Feder. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0048588
 
-The output file will read like this
-Haplo_pos         Haplo_coverage  Haplo_genotype  Geno_count	Geno_freq\
+The output file will read like this\
+Haplo_pos &nbsp;&nbsp;&nbsp;&nbsp;Haplo_coverage &nbsp;&nbsp;&nbsp;&nbsp;Haplo_genotype &nbsp;&nbsp;&nbsp;&nbsp;Geno_count Geno_freq\
 95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;A,C &nbsp;&nbsp;&nbsp;&nbsp;171506 &nbsp;&nbsp;&nbsp;&nbsp;0.551138390347\
 95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;A,T &nbsp;&nbsp;&nbsp;&nbsp;115967 &nbsp;&nbsp;&nbsp;&nbsp;0.37266256407\
 95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;G,T &nbsp;&nbsp;&nbsp;&nbsp;19861 &nbsp;&nbsp;&nbsp;&nbsp;0.063823770426\
