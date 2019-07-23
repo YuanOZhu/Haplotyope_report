@@ -13,7 +13,7 @@ Haplo_pos         Haplo_coverage  Haplo_genotype  Geno_count	Geno_freq\
 95,118,159        143135          G,T,A             7162      0.05003667866\
 95,118,159,189     93117          A,C,A,T          22917      0.246109732917\
 95,118,159,189     93117          A,C,G,T          29841      0.320467798576\
-95,118,159,189     93117          A,T,A,T          32109      0.344824253359\
+95,118,159,189     93117          A,T,A,T          32109      0.344824253359
 
 Haplo_pos: positions of SNPs in haplotype\
 Haplo_coverage: number of reads that covered this exact haplotype\
