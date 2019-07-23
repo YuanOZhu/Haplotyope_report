@@ -4,8 +4,8 @@ This script reports haplotypes spanning 2 or more known SNPs per read. Simple co
 
 The output file will read like this
 Haplo_pos         Haplo_coverage  Haplo_genotype  Geno_count	Geno_freq\
-95,118 &nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;A,C &nbsp;&nbsp;&nbsp;171506 &nbsp;&nbsp;&nbsp;0.551138390347\
-95,118 &nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;A,T &nbsp;&nbsp;&nbsp;115967 &nbsp;&nbsp;&nbsp;0.37266256407\
+95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;A,C &nbsp;&nbsp;&nbsp;&nbsp;171506 &nbsp;&nbsp;&nbsp;&nbsp;0.551138390347\
+95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;A,T &nbsp;&nbsp;&nbsp;&nbsp;115967 &nbsp;&nbsp;&nbsp;&nbsp;0.37266256407\
 95,118 &nbsp;&nbsp;&nbsp;&nbsp;311185 &nbsp;&nbsp;&nbsp;&nbsp;G,T &nbsp;&nbsp;&nbsp;&nbsp;19861 &nbsp;&nbsp;&nbsp;&nbsp;0.063823770426\
 95,118,159 &nbsp;&nbsp;&nbsp;&nbsp;143135 &nbsp;&nbsp;&nbsp;&nbsp;A,C,A &nbsp;&nbsp;&nbsp;&nbsp;35268 &nbsp;&nbsp;&nbsp;&nbsp;0.246396758305\
 95,118,159 &nbsp;&nbsp;&nbsp;&nbsp;143135 &nbsp;&nbsp;&nbsp;&nbsp;A,C,G &nbsp;&nbsp;&nbsp;&nbsp;45613 &nbsp;&nbsp;&nbsp;&nbsp;0.318671184546\
